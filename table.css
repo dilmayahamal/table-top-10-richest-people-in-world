@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.body tr{
+    border-bottom: 1px solid white;
+}
+
+.header{
+    background-color: purple;
+}
+span{
+    font-size: 40px;
+    /* background-color: black; */
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: sans-serif
+}
+big{
+    color: red;
+    padding: 50px 10px;
+}
+.body tr:nth-child(even):hover{
+    background-color: rgba(211, 182, 211, 0.829);
+}
+.body tr:hover{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(233, 98, 233, 0.199);
+}
+}
